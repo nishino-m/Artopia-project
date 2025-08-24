@@ -27,8 +27,8 @@ cp .env.local.example .env.local
 ```bash
 #起動
 docker compose up -d
-#停止
-docker compose down
+#停止(-v 任意)
+docker compose down -v
 #確認
 docker logs -f artopia-mysql
 ```
