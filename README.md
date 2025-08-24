@@ -49,9 +49,7 @@ npm install
 bunx prisma migrate dev --name init
 bunx prisma generate
 ```
-
 #### Tech Stack
-
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
