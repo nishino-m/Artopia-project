@@ -27,8 +27,8 @@ cp .env.local.example .env.local
 ```bash
 #起動
 docker compose up -d
-#停止
-docker compose down
+#停止(-v任意)
+docker compose down -v
 #確認
 docker logs -f artopia-mysql
 ```
@@ -48,4 +48,12 @@ npm install
 #bunx or npx
 bunx prisma migrate dev --name init
 bunx prisma generate
+```
+
+### 6. 開発サーバー起動
+
+```bash
+bun dev
+#or
+npm run dev
 ```
