@@ -22,7 +22,7 @@ cd frontend
 cp .env.local.example .env.local
 ```
 
-### 3. MySQL操作
+### 3. DB起動
 
 ```bash
 #起動
