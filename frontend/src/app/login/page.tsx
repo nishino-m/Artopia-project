@@ -7,6 +7,7 @@ const LoginPage = () => {
             <section>
                 <Button>ログイン</Button>
             </section>
+            <p>新規登録はこちら</p>
         </main>
     );
 };
